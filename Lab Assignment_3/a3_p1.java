@@ -2,7 +2,7 @@
 // NumberFormatException. Write appropriate Exceptional handler.
 
 
-import java.util.*;;
+import java.util.*;
 public class a3_p1 {
 	int x;
 	public void input(int x)
@@ -15,9 +15,8 @@ public class a3_p1 {
 	}
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		int n=0;
 		System.out.print("Enter your lucky number: ");
-		n=sc.nextInt();
+		int n=sc.nextInt();
 		a3_p1 ob=new a3_p1();
 		try 
 		{	
