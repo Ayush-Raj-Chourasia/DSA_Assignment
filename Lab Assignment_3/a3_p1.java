@@ -26,7 +26,10 @@ public class a3_p1 {
 		{
 			System.out.println("Error "+ e);
 		}
-		sc.close();
+		finally{
+
+			sc.close();
+		}
 	}
 }
 
