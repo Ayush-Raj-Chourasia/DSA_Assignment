@@ -170,14 +170,14 @@ public class LinkedList {
 
     // Reverse 
     public void reverse(){
-        Node current = head;
+        Node temp = head;
         Node prev = null;
         Node next = null;
-        while(current != null){
-            next = current.next; // Store next
-            current.next = prev; // Reverse current node's pointer
-            prev = current;      // Move pointers one position ahead
-            current = next;
+        while(temp != null){
+            next = temp.next; // Store next
+            temp.next = prev; // Reverse current node's pointer
+            prev = temp;      // Move pointers one position ahead
+            temp = next;
         }
         head = prev;
     }
